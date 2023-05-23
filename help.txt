@@ -1,0 +1,17 @@
+//防火墙必须全同意
+//第一步
+把steamcmd放进一个文件夹再点击steamcmd.exe
+//第二步
+等steamcmd出现steam>的时候在该文件夹内创建名称Server的空文件夹
+//第三步
+cmd内输入force_install_dir 【dir后面打个空格填入文件位置{直接复制粘贴文件夹位置即可}】
+//第四步
+login anonymous
+//第五步
+app_update 740 validate 【30G左右哦需要很长一段时间】
+---------------------------------------------------------
+ //验证修复第五步 需要重新走第三步骤定位Server文件
+app_update 740 validate【删掉addon，cfg文件后可以修复不用重新下载】
+---------------------------------------------------------
+//启动服务器bate编辑
+srcds -game csgo -console -usercon +game_type 0 +game_mode 1 +mapgroup mg_active +map de_dust2 -tickrate 128
