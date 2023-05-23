@@ -38,7 +38,8 @@ cmd内接着输入 login anonymous 【等待全ok】
 编辑内容【srcds -game csgo -console -usercon +game_type 0+game_mode 1 +mapgroup mg_active +map de_dust2 -tickrate 128】
 后缀【server.txt】改成【server.bat】就ok！
 
-
+--
 //需先打开游戏，再打开bat文件。
+
 //如果先打开bat文件steam会显示你已开始游戏，你上不去游戏的
 --
