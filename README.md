@@ -32,8 +32,8 @@ cmd内接着输入 login anonymous 【等待全ok】
 这时候用这个指令验证文件他就会给你补全属于他自己的文件，直接修复不用重新下载30G文件！】
 
 
-因国服改动需要把登录服务器改成国际服，所以在steam库-csgo属性启动项添加
-【-worldwide】前面留个空格。或者点击国际服登录即可！
+因国服改动需要把登录服务器改成国际服，所以在steam库-csgo属性启动项
+添加【-worldwide】或者点击国际服登录即可！
 --
 
 启动服务器bat编辑 
@@ -42,8 +42,7 @@ cmd内接着输入 login anonymous 【等待全ok】
 编辑内容【srcds -game csgo -console -usercon +game_type 0+game_mode 1 +mapgroup mg_active +map de_dust2 -tickrate 128】
 后缀【server.txt】改成【server.bat】就ok！
 
-
+服务器启动顺序
+--
 需先打开游戏，再打开bat文件。
---
 如果先打开bat文件steam会显示你已开始游戏，你上不去游戏的
---
