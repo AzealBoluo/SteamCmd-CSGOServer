@@ -25,7 +25,7 @@ cmd内接着输入 login anonymous 【等待全ok】
 
 验证修复教程 
 --
-需要重新走第四步骤定位Server文件【force_install_dir D:\xxx\Server】再-第五步骤
+需要重新走第四步骤定位Server文件【force_install_dir D:\cs-server\Server】再-第五步骤
 重新登陆【login anonymous】后输入【app_update 740 validate】即可。
 【一般插件就包含addon，cfg文件，这两个文件直接删了再安装别的插件用的时候会出现错误。
 
@@ -34,7 +34,7 @@ cmd内接着输入 login anonymous 【等待全ok】
 
 因国服改动需要把登录服务器改成国际服
 --
-在steam库-csgo属性启动项添加【-worldwide】或者点击国际服登录即可
+在steam库-csgo属性启动项添加【-worldwide】或者点击国际服登录即可在社区服务-局域网栏找到自己的服务器
 
 
 启动服务器bat编辑 
@@ -47,3 +47,7 @@ cmd内接着输入 login anonymous 【等待全ok】
 --
 需先打开游戏，再打开bat文件。
 如果先打开bat文件steam会显示你已开始游戏，你上不去游戏的！！
+
+必备插件解压位置
+--
+Addons跟cfg文件放到 D:\cs-server\Server\csgo 内即可
