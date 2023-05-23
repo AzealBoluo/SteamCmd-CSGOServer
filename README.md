@@ -23,7 +23,7 @@ cmd内接着输入 login anonymous 【等待全ok】
 【下载全部服务器前置，30G左右哦需要一段时间！】
 
 
-//验证 修复 
+验证修复教程 
 --
 需要重新走第四步骤定位Server文件【force_install_dir D:\xxx\Server】再-第五步骤
 重新登陆【login anonymous】后输入【app_update 740 validate】即可。
@@ -36,7 +36,7 @@ cmd内接着输入 login anonymous 【等待全ok】
 【-worldwide】前面留个空格。或者点击国际服登录即可！
 --
 
-//启动服务器bat编辑 
+启动服务器bat编辑 
 --
 创建txt文件【server.txt】
 编辑内容【srcds -game csgo -console -usercon +game_type 0+game_mode 1 +mapgroup mg_active +map de_dust2 -tickrate 128】
