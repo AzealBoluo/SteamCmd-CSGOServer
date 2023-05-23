@@ -51,3 +51,21 @@ cmd内接着输入 login anonymous 【等待全ok】
 必备插件解压位置
 --
 Addons跟cfg文件放到 D:\cs-server\Server\csgo 内即可
+
+需给予自己steam管理员权限 【拥有权限了才能用全部插件】
+--
+进入\addons\sourcemod\configs\admins_simple.ini文件txt格式打开
+
+在最下面空区添加 "STEAM_0:0:xxxxxxxx"	"99:z"  注：需要双键号概括你的id跟权限码！
+
+【"STEAM_0:0:xxxxxxxx"】为你的steamID 
+
+查询链接推荐：https://steamid.io/lookup/
+
+复制自己的steam主页URL查询，最上面显示的就是你steamid 
+
+让服务器允许全部插件
+--
+进入\addons\sourcemod\configs\core.cfg中的内容
+"FollowCSGOServerGuidelines" "Yes" 修改成 "No"
+可以无视，我帮你们已经改掉了 :D
