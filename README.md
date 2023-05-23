@@ -21,13 +21,10 @@ cmd内接着输入 login anonymous 【等待全ok】
 【下载全部服务器前置，30G左右哦需要一段时间！】
 
 
- //验证//修复 需要重新走第四步骤定位Server文件【force_install_dir D:\xxx\Server】
- 
- 再-第五步骤重新登陆【login anonymous】后输入【app_update 740 validate】即可。
- 
- 【一般插件就包含addon，cfg文件，这两个文件直接删了再安装别的插件用的时候会出现错误 
- 
- 这时候用这个指令验证文件他就会给你补全属于他自己的文件，直接修复不用重新下载30G文件！】
+//验证//修复 需要重新走第四步骤定位Server文件【force_install_dir D:\xxx\Server】
+再-第五步骤重新登陆【login anonymous】后输入【app_update 740 validate】即可。
+【一般插件就包含addon，cfg文件，这两个文件直接删了再安装别的插件用的时候会出现错误 
+这时候用这个指令验证文件他就会给你补全属于他自己的文件，直接修复不用重新下载30G文件！】
 
 
 //因国服改动需要把登录服务器改成国际服，所以在steam库-csgo属性启动项添加
