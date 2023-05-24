@@ -68,4 +68,4 @@ Addons跟cfg文件放到 D:\cs-server\Server\csgo 内即可
 --
 进入\addons\sourcemod\configs\core.cfg中的内容
 "FollowCSGOServerGuidelines" "Yes" 修改成 "No"
-可以无视，我帮你们已经改掉了 :D
+可以无视，我已经帮你们改掉了 :D
