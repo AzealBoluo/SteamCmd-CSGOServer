@@ -52,7 +52,7 @@ cmd内接着输入 login anonymous 【等待全ok】
 --
 Addons跟cfg文件放到 D:\cs-server\Server\csgo 内即可
 
-需给予自己steam管理员权限 【拥有权限了才能用全部插件】
+需给予自己steam管理员权限 【拥有权限了才能用全部插件】 附加指令：聊天框输入!admin
 --
 进入\addons\sourcemod\configs\admins_simple.ini文件txt格式打开
 
